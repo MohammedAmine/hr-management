@@ -47,7 +47,7 @@ public class Employee implements Serializable {
 	@Min(value = 0, message = "An employee's salary cannot be negative")
 	private int salary;
 	
-	@ManyToOne(fetch=FetchType.LAZY)
+	@ManyToOne(fetch=FetchType.EAGER)
 	@JoinColumn(name="EMPLOYER_ID")
 	private Company employer;
 

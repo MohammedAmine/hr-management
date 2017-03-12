@@ -1,6 +1,8 @@
 package com.hrmanagement.model;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -38,7 +40,7 @@ public class Company implements Serializable {
 	@Column
 	private String logoURL;
 	
-	@OneToMany(mappedBy="employer")
+	@OneToMany(mappedBy="employer", fetch=FetchType.EAGER)
 	private List<Employee> employees;
 
 	public Long getId() {

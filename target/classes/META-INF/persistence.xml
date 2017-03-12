@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 <persistence-unit name="primary">
-   <!-- If you are running in a production environment, add a managed 
-         data source, this example data source is just for development and testing! --><!-- The datasource is deployed as WEB-INF/hr-management-ds.xml, you
-         can find it in the source at src/main/webapp/WEB-INF/hr-management-ds.xml --><jta-data-source>java:jboss/datasources/hr-managementDS</jta-data-source>
+<!-- The datasource is deployed as WEB-INF/hr-management-ds.xml, you can find it in the source at src/main/webapp/WEB-INF/hr-management-ds.xml -->
+<jta-data-source>java:jboss/datasources/hr-managementDS</jta-data-source>
     <properties>
-      <!-- Properties for Hibernate --><property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+      <!-- Properties for Hibernate -->
+      <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
       <property name="hibernate.show_sql" value="false"/>
     </properties>
   </persistence-unit>
@@ -18,7 +18,7 @@
       <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
       <property name="hibernate.show_sql" value="true"/>
       <property name="hibernate.format_sql" value="true"/>
-      <property name="hibernate.transaction.flush_before_completion" value="true"/>
+      <property name="hibernate.transaction.flush_before_completion" value="false"/>
       <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
     </properties>
   </persistence-unit>
