@@ -12,7 +12,7 @@
  - Maven (Red Had Jboss Developer Studio Integration)
 
 
-##Star JBoss Server##
+##Start JBoss Server##
 
 1. Open a command line and navigate to the root of the JBoss server directory.
 
@@ -37,8 +37,8 @@ You can start JBoss server directly from JBoss Developer Studio or Eclipse.
  ```
 
 This will deploy target/hr-management.war to the running instance of the JBoss server.
-Now you can see the application running at http://localhost:8080/hr-management.
+Now you can see the application running @ http://localhost:8080/hr-management.
 
 ##Help##
 
-If you need the full installation instructions for Java Runtime Environment, Red Had JBoss Server and Maven, please visit this repository : https://github.com/MohammedAmine/helloworld-rs
+If you need the full installation instructions for Java Runtime Environment, Red Had JBoss Server and Maven, please visit this repository @ https://github.com/MohammedAmine/helloworld-rs
