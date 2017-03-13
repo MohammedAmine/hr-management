@@ -10,6 +10,7 @@
  - JAX-RS
  - Red Hat JBoss EAP 7.0
  - Maven (Red Had Jboss Developer Studio Integration)
+ - Sencha Ext JS
 
 
 ##Start JBoss Server##
