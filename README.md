@@ -41,4 +41,6 @@ Now you can see the application running @ http://localhost:8080/hr-management.
 
 ##Help##
 
-If you need the full installation instructions for Java Runtime Environment, Red Had JBoss Server and Maven, please visit this repository @ https://github.com/MohammedAmine/helloworld-rs
+If you need the full installation instructions for Java Runtime Environment, Red Had JBoss Server and Maven, please visit this repository @ https://github.com/MohammedAmine/helloworld-rs.
+
+To read the instructions for installing and running H2, please visit @ http://www.jboss.org/quickstarts/eap/h2-console.
